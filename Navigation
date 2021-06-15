@@ -24,9 +24,9 @@ class Menu extends StatelessWidget {
       ),
       body : Center(
         child : GridView.count(
-          crossAxisCount: 3,
+          crossAxisCount: 4,
             children:<Widget>[RaisedButton(
-              child : Text ('DATA DIRI'),
+              child : Text ('Data Diri'),
               onPressed: (){
 
                 Navigator.pushNamed(context, HalamanPertama.routeName);
@@ -61,7 +61,7 @@ class HalamanPertama extends StatelessWidget {
   Widget build(BuildContext context){
     return Scaffold (
       appBar : AppBar(
-        title : Text("DATA DIRI"),
+        title : Text("Data Diri"),
       ),
       body: 
             Text('Nama lengakap : Rahyuni Sihole'),
